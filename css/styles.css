@@ -8,3 +8,7 @@ p{
 h1{
     color:white;
 }
+.centered-image{
+    height: 30%;
+    width: auto;
+}
