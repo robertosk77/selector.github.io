@@ -12,3 +12,5 @@ const q5 = document.querySelector(".question5");
 
 const instructions = document.querySelector(".instructions");
 const results = document.querySelector(".results");
+
+
