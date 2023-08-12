@@ -1,9 +1,10 @@
 p{
     color:blue;
+    font-size: large;
 }
 *{
     background-color: white;
-    font-size: large;
+    
 }
 h1{
     color:blue;
@@ -12,4 +13,25 @@ h1{
 h2{
     color:blue;
     font-size:x-large;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    background-color:blue;
+}
+.question1{
+    display: block;
+
+}
+.question2{
+    display: none;
+}
+.question3{
+    display: none;
+}
+question4{
+    display: none;
+}
+question5{
+    display: none;
 }
