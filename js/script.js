@@ -1,4 +1,5 @@
 
+
 let runningTotal = 0;
 
 function oneChocolate() {
@@ -101,6 +102,8 @@ function fiveRingo() {
     console.log(runningTotal);
 
 }
+
+
 
 
 
