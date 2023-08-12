@@ -20,18 +20,117 @@ body{
     background-color:blue;
 }
 .question1{
+    border: 2px solid purple;
+	padding: 3px;
+	margin-bottom:3px;
+	margin-top:3px;
+	margin-left:3px;
+	margin-right:3px;
+	box-sizing:content-box;
+	background-color: white;
     display: block;
 
 }
 .question2{
+    border: 2px solid purple;
+	padding: 3px;
+	margin-bottom:3px;
+	margin-top:3px;
+	margin-left:3px;
+	margin-right:3px;
+	box-sizing:content-box;
+	background-color: white;
     display: none;
 }
 .question3{
     display: none;
 }
 .question4{
+    border: 2px solid purple;
+	padding: 3px;
+	margin-bottom:3px;
+	margin-top:3px;
+	margin-left:3px;
+	margin-right:3px;
+	box-sizing:content-box;
+	background-color: white;
     display: none;
 }
 .question5{
+    border: 2px solid purple;
+	padding: 3px;
+	margin-bottom:3px;
+	margin-top:3px;
+	margin-left:3px;
+	margin-right:3px;
+	box-sizing:content-box;
+	background-color: white;
+    display: none;
+}
+.answers1{
+    border: 2px solid purple;
+	padding: 3px;
+	margin-bottom:3px;
+	margin-top:3px;
+	margin-left:3px;
+	margin-right:3px;
+	box-sizing:content-box;
+	background-color: white;
+    display: block;
+
+}
+.answers2{
+    border: 2px solid purple;
+	padding: 3px;
+	margin-bottom:3px;
+	margin-top:3px;
+	margin-left:3px;
+	margin-right:3px;
+	box-sizing:content-box;
+	background-color: white;
+    display: none;
+}
+.answers3{
+    border: 2px solid purple;
+	padding: 3px;
+	margin-bottom:3px;
+	margin-top:3px;
+	margin-left:3px;
+	margin-right:3px;
+	box-sizing:content-box;
+	background-color: white;
+    display: none;
+}
+.answers4{
+    border: 2px solid purple;
+	padding: 3px;
+	margin-bottom:3px;
+	margin-top:3px;
+	margin-left:3px;
+	margin-right:3px;
+	box-sizing:content-box;
+	background-color: white;
+    display: none;
+}
+.answers5{
+    border: 2px solid purple;
+	padding: 3px;
+	margin-bottom:3px;
+	margin-top:3px;
+	margin-left:3px;
+	margin-right:3px;
+	box-sizing:content-box;
+	background-color: white;
+    display: none;
+}
+.results{
+    border: 2px solid purple;
+	padding: 3px;
+	margin-bottom:3px;
+	margin-top:3px;
+	margin-left:3px;
+	margin-right:3px;
+	box-sizing:content-box;
+	background-color: white;
     display: none;
 }
