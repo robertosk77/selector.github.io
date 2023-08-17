@@ -1,85 +1,35 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang ="en">
 <head>
-    <script src="js/script.js"></script>
-    <meta charset = "UTF-8">
-	<link href="css/styles.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <link href="css/styles.css" ref="stylesheet" type="text/css">
+    <title>THE CODE WIZARD'S DOMAIN</title>
 </head>
 <body>
-    <script src="js/script.js"></script>
-    <header><img src="img/codemaster.jpg" alt="The CODEMASTER in all his glory" height="250px" width="250px"><br><br><br><h1> WELCOME TO THE CODEMASTER'S DOMAIN!!!</h1></header>
-    <div class = "instructions">
-        <h1>THE CODEMASTER WILL DECIDE YOUR FATE</h1>
-        <br>
-        <p>So, you've decided to learn a new programming language. Answer the questions below to see which language the CODEMASTER recommends for you! Adventure awaits!</p>
+    <header><img src="img/codemaster.jpg" alt="The Code Wizard"></header>
+    <div id="introduction">
+        <h1>WELCOME TO THE CODE WIZARD'S DOMAIN!!!</h1>
+        <br><br><br>
+        <h2>THE CODE WIZARD WILL DECIDE YOUR FATE.</h2>
+        <br><br><br>
+        <p>Take the short quiz below, and the CODE WIZARD will recommend a programming language for you to learn! Adventure awaits!</p>
+    </div>
+    <div id="question1">
+        <h2>What is your favorite color?</h2>
 
     </div>
-    <div class = "question1">
-        <form>
-            <h2>WHAT IS YOUR FAVORITE COLOR?</h2>
-            <br>
-            <div class = "answers1">
-                <button>Red</button>
-                <button>Blue</button>
-                <button>Green</button>
-                <button>Yellow</button>
-            </div>
-        </form>
+    <div id="question2">
+        <h2>What is your favorite ice cream flavor?</h2>
     </div>
-    <div class = "question2">
-        <form>
-            <h2>WHAT IS YOUR FAVORITE ICE CREAM FLAVOR?</h2>
-            <br>
-            <div class = "answers2">
-                <button>Chocolate</button>
-                <button>Vanilla</button>
-                <button>Strawberry</button>
-                <button>Mint Chocolate Chip</button>
-            </div>
-        </form>
+    <div id="question3">
+        <h2>Which of these countries are you most likely to visit?</h2>
     </div>
-    <div class ="question3">
-        <form>
-            <h2>WHO IS YOUR FAVORITE BEATLE?</h2>
-            <br>
-            <div class ="answers3">
-                <button>John</button>
-                <button>Paul</button>
-                <button>George</button>
-                <button onclick ="pickedRingo()">Ringo</button>
-            </div>
-        </form>
-       
+    <div id="question4">
+        <h2>Who is your favorite member of the Beatles?</h2>
     </div>
-    <div class="question4">
-        <form>
-            <h2>WHICH COUNTRY ARE YOU MOST LIKELY TO VISIT?</h2>
-            <br>
-            <div class ="answers4">
-                <button>China</button>
-                <button>France</button>
-                <button>Peru</button>
-                <button>Ethiopia</button>
-            </div>
-        </form>
-    </div>
-    <div class="question5">
-        <form>
-            <h2>WHICH PROGRAMMING LANGUAGE DO YOU WANT TO LEARN?</h2>
-            <br>
-            <div class ="answers5">
-                <button onclick ="pickedHTML()">HTML</button>
-                <button onclick ="pickedCSS()">CSS</button>
-                <button onclick = "pickedJavaScript()">JavaScript</button>
-                <button onclick = "pickedWait()">Wait... seriously? </button>
-            </div>
-        </form>
-    </div>
-    <div class="results">
-        <h1>The CODEMASTER commands you to learn...</h1><br><br><br>
-        <h2>Programming language!</h2>
-        <p>This is a great programming language. You will definitely have great success with this language, the CODEMASTER commands it!</p>
-        <a href="index.html">Are You Brave Enough to Try Again?</a>
+    <div id="question5">
+        <h2>Which of these programming languages do you want to learn?</h2>
+        
     </div>
 </body>
 </html>
