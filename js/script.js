@@ -1,9 +1,8 @@
 window.onload;
-function runRingoRun(){
-    window.alert("Seriously? Wow. Ok.");
-}
+document.querySelector('button')
+
 function runHTML(){
-    document.querySelector('button')
+    
     document.getElementById("results").value = "HTML & CSS";
     document.write(document.getElementById("results").innerHTML);
     document.write("<h1>HTML & CSS!!!</h1>");
