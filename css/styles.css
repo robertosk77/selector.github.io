@@ -14,10 +14,18 @@ h2{
     color:blue;
     font-size:x-large;
 }
-body{
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-    background-color:blue;
+.instructions{
+	border: 2px solid purple;
+	padding: 3px;
+	margin-bottom:3px;
+	margin-top:3px;
+	margin-left:3px;
+	margin-right:3px;
+	box-sizing:content-box;
+	background-color: white;
+    display: block;
+	visibility: visible;
+
 }
 .question1{
     border: 2px solid purple;
